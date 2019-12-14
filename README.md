@@ -32,12 +32,7 @@ You can customize ngrok by setting the `NGROK_OPTS` config variable. For example
 $ heroku config:set NGROK_OPTS="-subdomain=my-subdomain"
 ```
 
-### Minecraft
 
-You can choose the Minecraft version by setting the MC_VERSION like so:
-
-```
-$ heroku config:set MC_VERSION="1.10.2"
 ```
 
 You can also configure the server properties by creating a `server.properties`
