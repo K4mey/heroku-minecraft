@@ -15,6 +15,6 @@ unzip ngrok.zip -d $BUILD_DIR/bin > /dev/null 2>&1
 echo "done"
 
 
-echo -n "-----> Installing server... "
+echo -n "-----> Installing latest 1.15 server... "
 curl --silent -o $BUILD_DIR/server.jar "https://papermc.io/api/v1/paper/1.15/latest/download" | indent
 echo "done"
